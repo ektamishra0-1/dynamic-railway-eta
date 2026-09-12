@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+*.zip
+data/raw/
+data/processed/
+data/visualizations/
+
+# ML artifacts
+*.pkl
+*.joblib
+*.model
+models/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Node
+dashboard/node_modules/
+dashboard/dist/
+dashboard/.vite/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
